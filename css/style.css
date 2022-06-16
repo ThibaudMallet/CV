@@ -1,0 +1,177 @@
+/* STYLES GLOBAUX */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+/* STYLES HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__image {
+    width: 200px;
+    height: auto;
+    background-color: white;
+    border: 3px solid #7BBB54;
+    border-radius: 50%;
+    margin: 1em 0 0 1em;
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.who__title {
+    font-size: 1.8em;
+    background-color: white;
+    text-align: center;
+    align-self: center;
+}
+
+.who__description {
+    font-size: 1em;
+}
+
+.meta {
+    background-color: #7BBB54;
+    border: 1px solid #7BBB54;
+    border-radius: 0 0 0 30px;
+    padding: 1em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meta__item {
+   list-style: none;
+   font-weight: bold;
+   color: white;
+   text-shadow: 1px 1px 1px black;
+   font-size: 1.1em;
+}
+
+/* STYLES MAIN */
+
+.content {
+    display: flex;
+    padding: 1em;
+}
+
+/* STYLES LEFT SIDE */
+
+.content__left-side {
+    width: 50%;
+    padding: 0 1.5em;
+}
+
+.left-side__title {
+    border-top: 2px solid #7BBB54;
+    padding-top: 0.3em;
+}
+
+.skills__title {
+    margin-left: -40px;
+}
+
+.skills__items,
+.language__item,
+.interest__item {
+    list-style: none;
+    line-height: 2em;
+}
+span {
+    padding-right: 1em;
+}
+
+/* STYLES RIGHT SIDE */
+
+.content__right-side {
+    width: 50%;
+}
+
+.formation__title,
+.work-experiences__title {
+    line-height: 2em;
+    padding-left: 1em;
+}
+
+.formation,
+.work-experiences {
+    border-left: 2px solid #7BBB54;
+    padding-left: 1em;
+    position: relative;
+}
+
+.formation {
+    margin-bottom: 2em;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: -0.8em;
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    background-color: #7BBB54;
+}
+
+date {
+    text-decoration: underline;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+strong {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.formation__place,
+.work-experiences__place {
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.work-experiences__list {
+    font-size: 0.75em;
+}
+
+/* STYLES FOOTER */
+
+footer {
+    background-color: #7BBB54;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    font-weight: 900;
+}
